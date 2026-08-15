@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MovieAppApp: App {
+    @StateObject private var favoritesManager = FavoritesManager()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(favoritesManager)
         }
     }
 }
