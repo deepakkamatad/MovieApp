@@ -50,25 +50,10 @@ No third-party libraries were used.
 
 - Xcode 15 or later
 - iOS 15+
-- TMDb API Key
 
-### Configure API Key
+Clone the repository, open `MovieApp.xcodeproj` and run the project.
 
-Clone the repository.
-
-Copy the example configuration file:
-
-```bash
-cp Secrets.example.xcconfig Secrets.xcconfig
-```
-
-Add your TMDb API key:
-
-```text
-TMDB_API_KEY = YOUR_API_KEY
-```
-
-Open `MovieApp.xcodeproj` and run the project.
+The TMDb API key is included in `Secrets.xcconfig`, which is committed to the repo, so no extra configuration is required.
 
 ---
 

@@ -41,7 +41,7 @@ enum APIError: Error, Equatable {
         case .networkError:
             return "No internet connection. Check your network and retry."
         case .missingAPIKey:
-            return "TMDb API key is not configured. Add TMDB_API_KEY to Secrets.xcconfig (see README)."
+            return "TMDb API key is not configured. Add TMDB_API_KEY to Secrets.xcconfig."
         }
     }
 }
